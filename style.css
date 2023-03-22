@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+}
+.menu{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menu ul li a{
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu li a:hover:not(.active){
+    background-color: #111;
+}
+.active:hover{
+    color: blue;
+}
+.active{
+    background-color: #04AA6D;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.login{
+    float: right;
+}
+.content{
+    margin-top: 80px;
+    padding-left: 20px;
+}
+.button {
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #2EE59D;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+  .button:hover {
+    /* background-color: #fff; */
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+  .img{
+    background-color: #333;
+    margin-top: 20px;
+}
+.img img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+section{
+    display: flex;
+    background-color: #615d5d;
+    padding: 10px;
+}
+nav{
+    background-color: #3d3a3a;
+    width: 35%;
+    padding: 20px;
+}
+article{
+    background-color: #575555;
+    width: 65%;
+    padding: 20px;
+    color: white;
+}
+article a{
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    font-size: 25px;
+    color: white;
+}
+.fooder{
+    background-color: #797777;
+    text-align: center;
+    padding: 70px;
+    color: white;
+}
+.fooder .image img{
+    width: 100px;
+    padding: 10px;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 844px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  }
+@media screen and (max-width: 600px) {
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 9px 9px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 7px 7px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 400px) {
+    article{
+        background-color: #575555;
+        width: 100%;
+        padding: 15px;
+        color: white;
+    }
+}
+@media screen and (max-width: 400px) {
+    .fooder .image img{
+        width: 100px;
+        padding: 5px;
+    }
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 851px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 600px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
+@media screen and (max-width: 600px) {
+    p,h1,h2{
+        color: red;
+    }
+    section{
+        display: block;
+        background-color: #615d5d;
+        padding: 10px;
+    }
+    nav{
+        background-color: #3d3a3a;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    article{
+        background-color: #575555;
+        width: 100%;
+        padding: 20px;
+        color: white;
+    }
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 600px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
